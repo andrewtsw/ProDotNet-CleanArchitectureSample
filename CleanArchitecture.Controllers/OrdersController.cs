@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Web.Controllers
+namespace CleanArchitecture.Controllers
 {
     [Route("api/orders")]
     [ApiController]

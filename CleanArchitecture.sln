@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Application.Interfaces", "CleanArchitecture.Application.Interfaces\CleanArchitecture.Application.Interfaces.csproj", "{17685834-D57E-4749-8CD6-5420C377FECF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Controllers", "CleanArchitecture.Controllers\CleanArchitecture.Controllers.csproj", "{4B952BD1-11A4-4EEE-85AA-6F5436098B34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{17685834-D57E-4749-8CD6-5420C377FECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17685834-D57E-4749-8CD6-5420C377FECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17685834-D57E-4749-8CD6-5420C377FECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B952BD1-11A4-4EEE-85AA-6F5436098B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B952BD1-11A4-4EEE-85AA-6F5436098B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B952BD1-11A4-4EEE-85AA-6F5436098B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B952BD1-11A4-4EEE-85AA-6F5436098B34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

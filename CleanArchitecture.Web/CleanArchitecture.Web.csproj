@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.Controllers\CleanArchitecture.Controllers.csproj" />
     <ProjectReference Include="..\CleanArchitecture.DataAccess\CleanArchitecture.DataAccess.SqlServer.csproj" />
     <ProjectReference Include="..\CleanArchitecture.Services\CleanArchitecture.Application.csproj" />
   </ItemGroup>

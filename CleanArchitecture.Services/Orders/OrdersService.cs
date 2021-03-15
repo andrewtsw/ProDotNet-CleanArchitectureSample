@@ -4,6 +4,7 @@ using CleanArchitecture.Entities;
 using CleanArchitecture.Infrastructure.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -43,12 +44,30 @@ namespace CleanArchitecture.Application.Orders
             return order.Id;
         }
 
-        public async Task<Order> GetByIdAsync(int id, CancellationToken cancellationToken)
+        public async Task<OrderDto> GetByIdAsync(int id, CancellationToken cancellationToken)
         {
-            return await _context.Orders
+            var order = await _context.Orders
                  .Include(order => order.Items)
                  .ThenInclude(item => item.Product)
                  .SingleOrDefaultAsync(order => order.Id == id, cancellationToken);
+
+            var orderDto = new OrderDto
+            {
+                Id = order.Id,
+                CreatedAt = order.CreatedAtUtc.UtcDateTime,
+                Price = order.Price,
+                Items = order.Items
+                    .Select(item => new OrderItemDto
+                    {
+                        ProductId = item.Product.Id,
+                        ProductName = item.Product.Name,
+                        Price = item.Price,
+                        Quantity = item.Quantity
+                    })
+                    .ToArray()
+            };
+
+            return orderDto;
         }
     }
 }

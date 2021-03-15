@@ -1,5 +1,4 @@
 ﻿using CleanArchitecture.Application.Interfaces.Orders;
-using CleanArchitecture.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading;
 using System.Threading.Tasks;
@@ -18,7 +17,7 @@ namespace CleanArchitecture.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<Order> GetByIdAsync(int id, CancellationToken cancellationToken)
+        public async Task<OrderDto> GetByIdAsync(int id, CancellationToken cancellationToken)
         {
             return await _ordersService.GetByIdAsync(id, cancellationToken);
         }

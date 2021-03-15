@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Services;
+﻿using CleanArchitecture.Infrastructure.Interfaces;
 using System;
 
 namespace CleanArchitecture.Web.Services

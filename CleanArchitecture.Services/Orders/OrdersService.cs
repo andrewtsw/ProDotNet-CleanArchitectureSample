@@ -1,5 +1,6 @@
 ﻿using CleanArchitecture.DataAccess.Interfaces;
 using CleanArchitecture.Entities;
+using CleanArchitecture.Infrastructure.Interfaces;
 using CleanArchitecture.Services.Orders;
 using Microsoft.EntityFrameworkCore;
 using System;

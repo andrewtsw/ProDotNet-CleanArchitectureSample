@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Services"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.DataAccess.Interfaces", "CleanArchitecture.DataAccess.Interfaces\CleanArchitecture.DataAccess.Interfaces.csproj", "{5503DFDF-30AA-46BE-B694-D1F13FBA5933}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infrastructure.Interfaces", "CleanArchitecture.Infrastructure.Interfaces\CleanArchitecture.Infrastructure.Interfaces.csproj", "{1151468B-3355-46A3-AA3C-D52AE7294829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5503DFDF-30AA-46BE-B694-D1F13FBA5933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5503DFDF-30AA-46BE-B694-D1F13FBA5933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5503DFDF-30AA-46BE-B694-D1F13FBA5933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1151468B-3355-46A3-AA3C-D52AE7294829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1151468B-3355-46A3-AA3C-D52AE7294829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1151468B-3355-46A3-AA3C-D52AE7294829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1151468B-3355-46A3-AA3C-D52AE7294829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

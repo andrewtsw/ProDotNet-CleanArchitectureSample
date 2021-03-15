@@ -1,4 +1,5 @@
 using CleanArchitecture.DataAccess.SqlServer;
+using CleanArchitecture.Infrastructure.Interfaces;
 using CleanArchitecture.Services;
 using CleanArchitecture.Web.Services;
 using Microsoft.AspNetCore.Builder;

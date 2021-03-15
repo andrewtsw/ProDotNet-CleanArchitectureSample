@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CleanArchitecture.Services
+namespace CleanArchitecture.Infrastructure.Interfaces
 {
     public interface ICurrentUserService
     {

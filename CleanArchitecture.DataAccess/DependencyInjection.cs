@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CleanArchitecture.Services.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CleanArchitecture.DataAccess.SqlServer
@@ -7,7 +8,7 @@ namespace CleanArchitecture.DataAccess.SqlServer
     {
         public static IServiceCollection AddDataAccessSqlServer(this IServiceCollection services, string connectionString)
         {
-            services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(connectionString));
+            services.AddDbContext<IOrdersDbContext, DatabaseContext>(options => options.UseSqlServer(connectionString));
 
             return services;
         }

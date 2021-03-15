@@ -1,9 +1,10 @@
 ﻿using CleanArchitecture.Entities;
+using CleanArchitecture.Services.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitecture.DataAccess.SqlServer
 {
-    public class DatabaseContext : DbContext
+    public class DatabaseContext : DbContext, IOrdersDbContext
     {
         public DatabaseContext(DbContextOptions<DatabaseContext> options)
             : base(options)

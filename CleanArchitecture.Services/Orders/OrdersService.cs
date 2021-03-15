@@ -1,5 +1,5 @@
-﻿using CleanArchitecture.DataAccess.SqlServer;
-using CleanArchitecture.Entities;
+﻿using CleanArchitecture.Entities;
+using CleanArchitecture.Services.Infrastructure;
 using CleanArchitecture.Services.Orders;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -10,10 +10,10 @@ namespace CleanArchitecture.Services
 {
     internal class OrdersService : IOrdersService
     {
-        private readonly DatabaseContext _context;
+        private readonly IOrdersDbContext _context;
         private readonly ICurrentUserService _currentUserService;
 
-        public OrdersService(DatabaseContext context, ICurrentUserService currentUserService)
+        public OrdersService(IOrdersDbContext context, ICurrentUserService currentUserService)
         {
             _context = context;
             _currentUserService = currentUserService;

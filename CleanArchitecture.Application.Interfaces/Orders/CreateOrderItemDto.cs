@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Services.Orders
+﻿namespace CleanArchitecture.Application.Interfaces.Orders
 {
     public class CreateOrderItemDto
     {

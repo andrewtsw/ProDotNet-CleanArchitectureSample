@@ -1,6 +1,5 @@
-﻿using CleanArchitecture.Entities;
-using CleanArchitecture.Services;
-using CleanArchitecture.Services.Orders;
+﻿using CleanArchitecture.Application.Interfaces.Orders;
+using CleanArchitecture.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading;
 using System.Threading.Tasks;

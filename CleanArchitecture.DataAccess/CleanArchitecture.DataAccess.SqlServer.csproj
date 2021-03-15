@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.DataAccess.Interfaces\CleanArchitecture.DataAccess.Interfaces.csproj" />
     <ProjectReference Include="..\CleanArchitecture.Entities\CleanArchitecture.Entities.csproj" />
-    <ProjectReference Include="..\CleanArchitecture.Services\CleanArchitecture.Services.csproj" />
   </ItemGroup>
 
 </Project>

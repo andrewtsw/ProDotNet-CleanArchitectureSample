@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Entities"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.DataAccess.SqlServer", "CleanArchitecture.DataAccess\CleanArchitecture.DataAccess.SqlServer.csproj", "{BD52BFD6-44FD-486C-B55A-BA2E725A9A3D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Services", "CleanArchitecture.Services\CleanArchitecture.Services.csproj", "{192AA982-BECB-4DBC-95B8-CC6930DE1BD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Application", "CleanArchitecture.Services\CleanArchitecture.Application.csproj", "{192AA982-BECB-4DBC-95B8-CC6930DE1BD7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.DataAccess.Interfaces", "CleanArchitecture.DataAccess.Interfaces\CleanArchitecture.DataAccess.Interfaces.csproj", "{5503DFDF-30AA-46BE-B694-D1F13FBA5933}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infrastructure.Interfaces", "CleanArchitecture.Infrastructure.Interfaces\CleanArchitecture.Infrastructure.Interfaces.csproj", "{1151468B-3355-46A3-AA3C-D52AE7294829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Application.Interfaces", "CleanArchitecture.Application.Interfaces\CleanArchitecture.Application.Interfaces.csproj", "{17685834-D57E-4749-8CD6-5420C377FECF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1151468B-3355-46A3-AA3C-D52AE7294829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1151468B-3355-46A3-AA3C-D52AE7294829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1151468B-3355-46A3-AA3C-D52AE7294829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17685834-D57E-4749-8CD6-5420C377FECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17685834-D57E-4749-8CD6-5420C377FECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17685834-D57E-4749-8CD6-5420C377FECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17685834-D57E-4749-8CD6-5420C377FECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

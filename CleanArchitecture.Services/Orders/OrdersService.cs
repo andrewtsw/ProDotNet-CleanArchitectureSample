@@ -1,13 +1,13 @@
-﻿using CleanArchitecture.DataAccess.Interfaces;
+﻿using CleanArchitecture.Application.Interfaces.Orders;
+using CleanArchitecture.DataAccess.Interfaces;
 using CleanArchitecture.Entities;
 using CleanArchitecture.Infrastructure.Interfaces;
-using CleanArchitecture.Services.Orders;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Services
+namespace CleanArchitecture.Application.Orders
 {
     internal class OrdersService : IOrdersService
     {

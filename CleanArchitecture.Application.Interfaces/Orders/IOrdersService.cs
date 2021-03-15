@@ -1,9 +1,8 @@
 ﻿using CleanArchitecture.Entities;
-using CleanArchitecture.Services.Orders;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Services
+namespace CleanArchitecture.Application.Interfaces.Orders
 {
     public interface IOrdersService
     {

@@ -1,6 +1,6 @@
+using CleanArchitecture.Application;
 using CleanArchitecture.DataAccess.SqlServer;
 using CleanArchitecture.Infrastructure.Interfaces;
-using CleanArchitecture.Services;
 using CleanArchitecture.Web.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -23,7 +23,7 @@ namespace CleanArchitecture.Web
         {
             services.AddControllers();
             services.AddDataAccessSqlServer(Configuration.GetConnectionString("OrdersDatabase"));
-            services.AddServices();
+            services.AddApplicationServices();
 
             services.AddScoped<ICurrentUserService, CurrentUserService>();
         }

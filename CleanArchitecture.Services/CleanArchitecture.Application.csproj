@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.Application.Interfaces\CleanArchitecture.Application.Interfaces.csproj" />
     <ProjectReference Include="..\CleanArchitecture.DataAccess.Interfaces\CleanArchitecture.DataAccess.Interfaces.csproj" />
     <ProjectReference Include="..\CleanArchitecture.Entities\CleanArchitecture.Entities.csproj" />
     <ProjectReference Include="..\CleanArchitecture.Infrastructure.Interfaces\CleanArchitecture.Infrastructure.Interfaces.csproj" />

@@ -14,6 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CleanArchitecture.DataAccess\CleanArchitecture.DataAccess.SqlServer.csproj" />
-    <ProjectReference Include="..\CleanArchitecture.Services\CleanArchitecture.Services.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Services\CleanArchitecture.Application.csproj" />
   </ItemGroup>
 </Project>

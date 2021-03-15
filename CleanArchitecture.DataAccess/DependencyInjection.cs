@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Services.Infrastructure;
+﻿using CleanArchitecture.DataAccess.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Services.Infrastructure
+namespace CleanArchitecture.DataAccess.Interfaces
 {
     public interface IOrdersDbContext
     {

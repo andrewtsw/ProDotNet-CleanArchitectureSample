@@ -1,5 +1,5 @@
-﻿using CleanArchitecture.Entities;
-using CleanArchitecture.Services.Infrastructure;
+﻿using CleanArchitecture.DataAccess.Interfaces;
+using CleanArchitecture.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitecture.DataAccess.SqlServer
